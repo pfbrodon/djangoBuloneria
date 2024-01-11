@@ -1,39 +1,46 @@
 {% extends 'base.html' %} {% block content %}
 <div class="container">
     <h1>STOCK</h1>
-    <table border="1" class="table table-striped table-bordered table-hover">
-        <thead>
-            <tr>
-                <th>ID</th>
-                <th>Categoria</th>
-                <th>Marca</th>
-                <th>Codigo</th>
-                <th>Descripcion</th>
-                <th>Cantidad</th>
-                <th>Ultimo Ingr.</th>
-                <th>Precio Costo</th>
-                <th>Utilidad</th>
-                <th>Precio Publico</th>
-                <!-- Agrega más columnas según las propiedades de tu modelo Producto -->
-            </tr>
-        </thead>
-        <tbody>
-            {% for producto in productos %}
-                <tr>
-                    <td>{{ producto.id }}</td>
-                    <td>{{ producto.categoria }}</td>
-                    <td>{{ producto.marca }}</td>
-                    <td>{{ producto.codigo }}</td>
-                    <td>{{ producto.descripcion }}</td>
-                    <td>{{ producto.cantidad }}</td>
-                    <td>{{ producto.ultimoIngreso }}</td>
-                    <td>{{ producto.precioCosto }}</td>
-                    <td>{{ producto.utilidad}}</td>
-                    <td>{{ producto.precioPublico }}</td>
-                    <!-- Agrega más celdas según las propiedades de tu modelo Producto -->
-                </tr>
-            {% endfor %}
-        </tbody>
-    </table>
+    <div class="table-responsive"> 
+        <form action="">
+            {%csrf_token%}
+            <table  class="table table-striped table-bordered table-hover">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Categoria</th>
+                        <th>Marca</th>
+                        <th>Codigo</th>
+                        <th>Descripcion</th>
+                        <th>Cantidad</th>
+                        <th>Ultimo Ingr.</th>
+                        <th>Precio Costo</th>
+                        <th>Utilidad</th>
+                        <th>Precio Publico</th>
+                        <th>Acciones</th>
+                        <!-- Agrega más columnas según las propiedades de tu modelo Producto -->
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for producto in productos %}
+                        <tr>
+                            <td>{{ producto.id }}</td>
+                            <td>{{ producto.categoria }}</td>
+                            <td>{{ producto.marca }}</td>
+                            <td>{{ producto.codigo }}</td>
+                            <td>{{ producto.descripcion }}</td>
+                            <td>{{ producto.cantidad }}</td>
+                            <td>{{ producto.ultimoIngreso }}</td>
+                            <td>{{ producto.precioCosto }}</td>
+                            <td>{{ producto.utilidad}}</td>
+                            <td>{{ producto.precioPublico }}</td>
+                            <td><div><button>EDITAR</button><button>ELIMINAR</button></div></td>
+                            <!-- Agrega más celdas según las propiedades de tu modelo Producto -->
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </form>
+    </div>
 </div>
 {% endblock %}
