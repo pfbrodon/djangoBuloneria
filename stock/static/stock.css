@@ -1,0 +1,82 @@
+.container {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.columMoneda {
+    text-align: right;
+}
+
+.encabezado {
+    text-align: center;
+}
+
+.columNum {
+    text-align: center;
+}
+
+.input-group {
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+table {
+    font-size: 11px;
+    width: 90%;
+    border-collapse: collapse;
+    vertical-align: middle;
+}
+
+.table td:nth-child(1),
+.table th:nth-child(1) {
+    width: 5%;
+    text-align: center;
+    /* Porcentaje deseado para la tercera columna */
+}
+
+.table td:nth-child(2),
+.table th:nth-child(2) {
+    width: 5%;
+    /* Porcentaje deseado para la cuarta columna */
+}
+
+.table td:nth-child(3),
+.table th:nth-child(3) {
+    width: 35%;
+    text-align: left;
+    /* Porcentaje deseado para la cuarta columna */
+}
+
+.table td:nth-child(4),
+.table th:nth-child(4) {
+    width: 6%;
+    /* Porcentaje deseado para la cuarta columna */
+}
+
+.table td:nth-child(5),
+.table th:nth-child(5) {
+    width: 8%;
+    /* Porcentaje deseado para la cuarta columna */
+}
+
+.table td:nth-child(6),
+.table th:nth-child(6) {
+    width: 10%;
+    align-items: center;
+    /* Porcentaje deseado para la cuarta columna */
+}
+
+.btn {
+    width: 50px;
+    height: 40px;
+    padding: 2px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 22px;
+}
+
+
+/* Ancho del botón */
