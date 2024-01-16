@@ -1,5 +1,4 @@
 {% extends 'base.html' %} {% block content %}
-<link rel="stylesheet" href="stock.css">
 <div class="container">
     <h1>STOCK</h1>
     <div class="table-responsive"> 
@@ -14,7 +13,6 @@
                         <th>Codigo</th>
                         <th>Descripcion</th>
                         <th>Cantidad</th>
-                        <th>Ultimo Ingr.</th>
                         <th>Precio Costo</th>
                         <th>Utilidad</th>
                         <th>Precio Publico</th>
@@ -26,14 +24,13 @@
                     {% for producto in productos %}
                         <tr>
                             <td>{{ producto.id }}</td>
-                            <td>{{ producto.categoria }}</td>
-                            <td>{{ producto.marca }}</td>
+                            <td>{{ producto.categoria.catNom }}</td>
+                            <td>{{ producto.marca.marcaNom }}</td>
                             <td>{{ producto.codigo }}</td>
                             <td>{{ producto.descripcion }}</td>
                             <td>{{ producto.cantidad }}</td>
-                            <td>{{ producto.ultimoIngreso }}</td>
                             <td>{{ producto.precioCosto }}</td>
-                            <td>{{ producto.utilidad}}</td>
+                            <td>{{ producto.utilidad.utilValor}}</td>
                             <td>{{ producto.precioPublico }}</td>
                             <td><div><button class="btn">EDITAR</button><button class="btn">ELIMINAR</button></div></td>
                             <!-- Agrega más celdas según las propiedades de tu modelo Producto -->
