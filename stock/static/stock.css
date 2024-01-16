@@ -22,8 +22,8 @@
     justify-content: center;
 }
 
-table {
-    font-size: 11px;
+.table {
+    font-size: 12px;
     width: 90%;
     border-collapse: collapse;
     vertical-align: middle;
@@ -44,7 +44,7 @@ table {
 
 .table td:nth-child(3),
 .table th:nth-child(3) {
-    width: 35%;
+    width: 5%;
     text-align: left;
     /* Porcentaje deseado para la cuarta columna */
 }
@@ -57,22 +57,23 @@ table {
 
 .table td:nth-child(5),
 .table th:nth-child(5) {
-    width: 8%;
+    width: 30%;
+    text-align: left;
     /* Porcentaje deseado para la cuarta columna */
 }
 
 .table td:nth-child(6),
 .table th:nth-child(6) {
-    width: 10%;
+    width: 8%;
     align-items: center;
     /* Porcentaje deseado para la cuarta columna */
 }
 
 .btn {
-    width: 50px;
-    height: 40px;
+    width: 58px;
+    height: 30px;
     padding: 2px;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: bold;
     text-align: center;
     line-height: 22px;
