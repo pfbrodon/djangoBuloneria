@@ -1,4 +1,4 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib.auth.forms import UserCreationForm, AuthenticationForm
 from django.contrib.auth.models import User
 from django.contrib.auth import login, logout, authenticate
@@ -63,6 +63,8 @@ def signin(request):
 def stock(request):
     if request.method=='GET':
         productos = Producto.objects.all()
+        for producto in productos:
+            producto.precioPublico=producto.precioCosto*producto.utilidad.utilValor
         return render(request, 'stock.html', {'productos': productos})
     
 @login_required 
@@ -72,5 +74,16 @@ def nuevo(request):
             'form': NuevoForm
         })
     else:
-        print(request.POST)
-        return render(request, 'nuevo.html')
+        form = NuevoForm(request.POST)
+        if form.is_valid():
+            form.save()  # Esto guarda los datos en la base de datos
+            print(request.POST)
+            return render(request, 'nuevo.html',{
+                'form': NuevoForm
+            })
+
+def eliminar(request, id):
+    producto = get_object_or_404 (Producto, id=id)
+    producto.delete()
+    return redirect('stock')
+    

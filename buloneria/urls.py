@@ -26,6 +26,5 @@ urlpatterns = [
     path('signin/', views.signin, name='signin'),
     path('stock/', views.stock, name='stock'),
     path('stock/nuevo/', views.nuevo, name='nuevo'),
-
-    
+    path('stock/eliminar/<int:id>/', views.eliminar, name='eliminar'),
 ]

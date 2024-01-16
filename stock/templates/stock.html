@@ -1,6 +1,8 @@
 {% extends 'base.html' %} {% block content %}
 {% load static %}
 <link rel="stylesheet" href="{% static '/css/stock.css' %}">
+<a class="btn btn-success" href="{% url 'nuevo' %}">NUEVO</a>
+<br>
 
 <div class="container">
     <h1>STOCK</h1>
@@ -34,8 +36,8 @@
                             <td>{{ producto.cantidad }}</td>
                             <td>{{ producto.precioCosto }}</td>
                             <td>{{ producto.utilidad.utilValor}}</td>
-                            <td>{{ producto.precioPublico }}</td>
-                            <td><div><button class="btn btn-primary ">EDITAR</button> <button class="btn btn-danger">ELIMINAR</button></div></td>
+                            <td>{{ producto.precioPublico}}</td>
+                            <td><div><button class="btn btn-primary ">EDITAR</button> <a class="btn btn-danger" href="{% url 'eliminar' id=producto.id %}">ELIMINAR</a></div></td>
                             <!-- Agrega más celdas según las propiedades de tu modelo Producto -->
                         </tr>
                     {% endfor %}
