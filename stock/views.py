@@ -5,6 +5,7 @@ from django.contrib.auth import login, logout, authenticate
 from django.contrib.auth.decorators import login_required
 from django.db import IntegrityError
 from .models import Producto
+from .forms import NuevoForm
 
 # Create your views here.
 
@@ -63,3 +64,13 @@ def stock(request):
     if request.method=='GET':
         productos = Producto.objects.all()
         return render(request, 'stock.html', {'productos': productos})
+    
+@login_required 
+def nuevo(request):
+    if request.method=='GET':
+        return render(request, 'nuevo.html',{
+            'form': NuevoForm
+        })
+    else:
+        print(request.POST)
+        return render(request, 'nuevo.html')
