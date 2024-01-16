@@ -15,3 +15,7 @@ class NuevoForm(ModelForm):
             'precioCosto': forms.NumberInput(attrs={'class': 'form-control'}),
             
         }
+class ProductoForm(ModelForm):
+    class Meta:
+        model= Producto
+        fields=('codigo', 'categoria' , 'marca' , 'descripcion' , 'cantidad' , 'utilidad' )

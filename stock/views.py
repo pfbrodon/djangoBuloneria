@@ -5,7 +5,7 @@ from django.contrib.auth import login, logout, authenticate
 from django.contrib.auth.decorators import login_required
 from django.db import IntegrityError
 from .models import Producto
-from .forms import NuevoForm
+from .forms import NuevoForm, ProductoForm
 
 # Create your views here.
 
@@ -81,9 +81,26 @@ def nuevo(request):
             return render(request, 'nuevo.html',{
                 'form': NuevoForm
             })
-
+@login_required 
 def eliminar(request, id):
     producto = get_object_or_404 (Producto, id=id)
     producto.delete()
     return redirect('stock')
-    
+
+@login_required     
+def actualizar(request, id):
+    producto = get_object_or_404 (Producto, id=id)
+    if request.method=='GET':
+        form = ProductoForm(instance=producto)
+        return render(request, 'actualizar.html',{
+            'form': form,
+            'producto': producto
+        })
+    elif request.method=='POST':
+        form = ProductoForm(request.POST, instance=producto)
+        if form.is_valid():
+            form.save()  # Esto guarda los datos en la base de datos
+            print(request.POST)
+            return redirect('stock')
+    else:
+        return render(request, 'actualizar.html', {'form': None, 'producto': None})
