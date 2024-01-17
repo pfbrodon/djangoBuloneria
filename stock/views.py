@@ -6,7 +6,7 @@ from django.contrib.auth.decorators import login_required
 from django.db import IntegrityError
 from .models import Producto
 from .forms import NuevoForm, ProductoForm
-
+from django.template.defaultfilters import floatformat
 # Create your views here.
 
 def home(request):
@@ -64,7 +64,7 @@ def stock(request):
     if request.method=='GET':
         productos = Producto.objects.all()
         for producto in productos:
-            producto.precioPublico=producto.precioCosto*producto.utilidad.utilValor
+            producto.precioPublico= floatformat(producto.precioCosto*producto.utilidad.utilValor,2)
         return render(request, 'stock.html', {'productos': productos})
     
 @login_required 

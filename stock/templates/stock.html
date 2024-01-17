@@ -34,9 +34,9 @@
                             <td>{{ producto.codigo }}</td>
                             <td>{{ producto.descripcion }}</td>
                             <td>{{ producto.cantidad }}</td>
-                            <td>{{ producto.precioCosto }}</td>
+                            <td>${{ producto.precioCosto }}</td>
                             <td>{{ producto.utilidad.utilValor}}</td>
-                            <td>{{ producto.precioPublico}}</td>
+                            <td>${{ producto.precioPublico}}</td>
                             <td><div><a class="btn btn-primary " href="{% url 'actualizar' id=producto.id %}">EDITAR</a> <a class="btn btn-danger" href="{% url 'eliminar' id=producto.id %}">ELIMINAR</a></div></td>
                             <!-- Agrega más celdas según las propiedades de tu modelo Producto -->
                         </tr>
