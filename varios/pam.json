@@ -1,0 +1,732 @@
+[
+    {
+        "cantidad": 500,
+        "categoria_id": 1,
+        "codigo": 1659,
+        "descripcion": "ABRAZADERA NEON 100 X 2.5 (100 U. )",
+        "marca_id": 3,
+        "precioCosto": 8.42,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 500,
+        "categoria_id": 1,
+        "codigo": 1660,
+        "descripcion": "ABRAZADERA NEON 150 X 3.6 (100 U. )",
+        "marca_id": 3,
+        "precioCosto": 23.3,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 500,
+        "categoria_id": 1,
+        "codigo": 1642,
+        "descripcion": "ABRAZADERA NEON 200 X 3.6 (100 U. )",
+        "marca_id": 3,
+        "precioCosto": 30.57,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 500,
+        "categoria_id": 1,
+        "codigo": 1662,
+        "descripcion": "ABRAZADERA NEON 200 X 4.8 (100 U. )",
+        "marca_id": 3,
+        "precioCosto": 42.1,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 500,
+        "categoria_id": 1,
+        "codigo": 1661,
+        "descripcion": "ABRAZADERA NEON 250 X 3.6 (100 U. )",
+        "marca_id": 3,
+        "precioCosto": 41.89,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 500,
+        "categoria_id": 1,
+        "codigo": 1663,
+        "descripcion": "ABRAZADERA NEON 250 X 4.8 (100 U. )",
+        "marca_id": 3,
+        "precioCosto": 55.09,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 500,
+        "categoria_id": 1,
+        "codigo": 1664,
+        "descripcion": "ABRAZADERA NEON 300 X 4.8 (100 U. )",
+        "marca_id": 3,
+        "precioCosto": 62.89,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 500,
+        "categoria_id": 1,
+        "codigo": 1641,
+        "descripcion": "ABRAZADERA NEON 380 X 4.8 (100 U. )",
+        "marca_id": 3,
+        "precioCosto": 86.53,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 500,
+        "categoria_id": 1,
+        "codigo": 1665,
+        "descripcion": "ABRAZADERA NEON 400 X 4.8 (100 U. )",
+        "marca_id": 3,
+        "precioCosto": 93.41,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 1000,
+        "categoria_id": 1,
+        "codigo": 5530,
+        "descripcion": "REMACHE RERAR 3.5 X 6",
+        "marca_id": 3,
+        "precioCosto": 15.35,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 1000,
+        "categoria_id": 1,
+        "codigo": 5531,
+        "descripcion": "REMACHE RERAR 3.5 X 8",
+        "marca_id": 3,
+        "precioCosto": 15.67,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 1000,
+        "categoria_id": 1,
+        "codigo": 5532,
+        "descripcion": "REMACHE RERAR 3.5 X 10",
+        "marca_id": 3,
+        "precioCosto": 16.71,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 1000,
+        "categoria_id": 1,
+        "codigo": 5533,
+        "descripcion": "REMACHE RERAR 3.5 X 12",
+        "marca_id": 3,
+        "precioCosto": 17.87,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 1000,
+        "categoria_id": 1,
+        "codigo": 5534,
+        "descripcion": "REMACHE RERAR 3.5 X 14",
+        "marca_id": 3,
+        "precioCosto": 18.22,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 1000,
+        "categoria_id": 1,
+        "codigo": 5535,
+        "descripcion": "REMACHE RERAR 3.5 X 16",
+        "marca_id": 3,
+        "precioCosto": 19.4,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 1000,
+        "categoria_id": 1,
+        "codigo": 5536,
+        "descripcion": "REMACHE RERAR 3.5 X 19",
+        "marca_id": 3,
+        "precioCosto": 21.75,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 1000,
+        "categoria_id": 1,
+        "codigo": 5537,
+        "descripcion": "REMACHE RERAR 4 X 6",
+        "marca_id": 3,
+        "precioCosto": 18.95,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 1000,
+        "categoria_id": 1,
+        "codigo": 5538,
+        "descripcion": "REMACHE RERAR 4 X 8",
+        "marca_id": 3,
+        "precioCosto": 19.8,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 1000,
+        "categoria_id": 1,
+        "codigo": 5539,
+        "descripcion": "REMACHE RERAR 4 X 10",
+        "marca_id": 3,
+        "precioCosto": 20.67,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 1000,
+        "categoria_id": 1,
+        "codigo": 5540,
+        "descripcion": "REMACHE RERAR 4 X 12",
+        "marca_id": 3,
+        "precioCosto": 21.48,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 1000,
+        "categoria_id": 1,
+        "codigo": 5541,
+        "descripcion": "REMACHE RERAR 4 X 14",
+        "marca_id": 3,
+        "precioCosto": 21.96,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 1000,
+        "categoria_id": 1,
+        "codigo": 5542,
+        "descripcion": "REMACHE RERAR 4 X 16",
+        "marca_id": 3,
+        "precioCosto": 23.62,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 1000,
+        "categoria_id": 1,
+        "codigo": 5543,
+        "descripcion": "REMACHE RERAR 4 X 19",
+        "marca_id": 3,
+        "precioCosto": 25.68,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 500,
+        "categoria_id": 1,
+        "codigo": 5544,
+        "descripcion": "REMACHE RERAR 4.8 X 8",
+        "marca_id": 3,
+        "precioCosto": 31.25,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 500,
+        "categoria_id": 1,
+        "codigo": 5545,
+        "descripcion": "REMACHE RERAR 4.8 X 10",
+        "marca_id": 3,
+        "precioCosto": 32.35,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 500,
+        "categoria_id": 1,
+        "codigo": 5546,
+        "descripcion": "REMACHE RERAR 4.8 X 12",
+        "marca_id": 3,
+        "precioCosto": 33.87,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 500,
+        "categoria_id": 1,
+        "codigo": 5547,
+        "descripcion": "REMACHE RERAR 4.8 X 14",
+        "marca_id": 3,
+        "precioCosto": 35.94,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 500,
+        "categoria_id": 1,
+        "codigo": 5548,
+        "descripcion": "REMACHE RERAR 4.8 X 16",
+        "marca_id": 3,
+        "precioCosto": 37.58,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 500,
+        "categoria_id": 1,
+        "codigo": 5549,
+        "descripcion": "REMACHE RERAR 4.8 X 20",
+        "marca_id": 3,
+        "precioCosto": 45.81,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 500,
+        "categoria_id": 1,
+        "codigo": 5550,
+        "descripcion": "REMACHE RERAR 4.8 X 25",
+        "marca_id": 3,
+        "precioCosto": 50.84,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 500,
+        "categoria_id": 1,
+        "codigo": 5551,
+        "descripcion": "REMACHE RERAR 4.8 X 28",
+        "marca_id": 3,
+        "precioCosto": 55.98,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 500,
+        "categoria_id": 1,
+        "codigo": 5552,
+        "descripcion": "REMACHE RERAR 4.8 X 30",
+        "marca_id": 3,
+        "precioCosto": 60.46,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 6,
+        "categoria_id": 1,
+        "codigo": 3065,
+        "descripcion": "TENSOR TUBULAR TOTH DE 60 MM.",
+        "marca_id": 3,
+        "precioCosto": 1167.0,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 200,
+        "categoria_id": 1,
+        "codigo": 4802,
+        "descripcion": "TORNILLOS FIX 2.5 X 17 (CAJA X 200)",
+        "marca_id": 3,
+        "precioCosto": 5.28,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 400,
+        "categoria_id": 1,
+        "codigo": 4803,
+        "descripcion": "TORNILLOS FIX 2.5 X 20 (CAJA X 400)",
+        "marca_id": 3,
+        "precioCosto": 11.25,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 400,
+        "categoria_id": 1,
+        "codigo": 4804,
+        "descripcion": "TORNILLOS FIX 3 X 10 (CAJA X 400)",
+        "marca_id": 3,
+        "precioCosto": 9.65,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 200,
+        "categoria_id": 1,
+        "codigo": 4805,
+        "descripcion": "TORNILLOS FIX 3 X 12 (CAJA X 200)",
+        "marca_id": 3,
+        "precioCosto": 20.1,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 200,
+        "categoria_id": 1,
+        "codigo": 4807,
+        "descripcion": "TORNILLOS FIX 3 X 20 (CAJA X 200)",
+        "marca_id": 3,
+        "precioCosto": 11.94,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 200,
+        "categoria_id": 1,
+        "codigo": 4808,
+        "descripcion": "TORNILLOS FIX 3 X 25 (CAJA X 200)",
+        "marca_id": 3,
+        "precioCosto": 12.74,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 200,
+        "categoria_id": 1,
+        "codigo": 4809,
+        "descripcion": "TORNILLOS FIX 3 X 30 (CAJA X 200)",
+        "marca_id": 3,
+        "precioCosto": 13.54,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 400,
+        "categoria_id": 1,
+        "codigo": 4812,
+        "descripcion": "TORNILLOS FIX 3.5 X 12 (CAJA X 400)",
+        "marca_id": 3,
+        "precioCosto": 10.66,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 200,
+        "categoria_id": 1,
+        "codigo": 4813,
+        "descripcion": "TORNILLOS FIX 3.5 X 16 (CAJA X 200)",
+        "marca_id": 3,
+        "precioCosto": 11.69,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 200,
+        "categoria_id": 1,
+        "codigo": 4814,
+        "descripcion": "TORNILLOS FIX 3.5 X 20 (CAJA X 200)",
+        "marca_id": 3,
+        "precioCosto": 12.92,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 200,
+        "categoria_id": 1,
+        "codigo": 4815,
+        "descripcion": "TORNILLOS FIX 3.5 X 25 (CAJA X 200)",
+        "marca_id": 3,
+        "precioCosto": 13.79,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 200,
+        "categoria_id": 1,
+        "codigo": 4816,
+        "descripcion": "TORNILLOS FIX 3.5 X 30 (CAJA X 200)",
+        "marca_id": 3,
+        "precioCosto": 15.1,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 200,
+        "categoria_id": 1,
+        "codigo": 4817,
+        "descripcion": "TORNILLOS FIX 3.5 X 35 (CAJA X 200)",
+        "marca_id": 3,
+        "precioCosto": 15.93,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 200,
+        "categoria_id": 1,
+        "codigo": 4818,
+        "descripcion": "TORNILLOS FIX 3.5 X 40 (CAJA X 200)",
+        "marca_id": 3,
+        "precioCosto": 18.32,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 200,
+        "categoria_id": 1,
+        "codigo": 4819,
+        "descripcion": "TORNILLOS FIX 3.5 X 45 (CAJA X 200)",
+        "marca_id": 3,
+        "precioCosto": 19.75,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 200,
+        "categoria_id": 1,
+        "codigo": 4820,
+        "descripcion": "TORNILLOS FIX 3.5 X 50 (CAJA X 200)",
+        "marca_id": 3,
+        "precioCosto": 21.58,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 200,
+        "categoria_id": 1,
+        "codigo": 4821,
+        "descripcion": "TORNILLOS FIX 4 X 12 (CAJA X 200)",
+        "marca_id": 3,
+        "precioCosto": 11.07,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 200,
+        "categoria_id": 1,
+        "codigo": 4822,
+        "descripcion": "TORNILLOS FIX 4 X 16 (CAJA X 200)",
+        "marca_id": 3,
+        "precioCosto": 12.3,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 200,
+        "categoria_id": 1,
+        "codigo": 4823,
+        "descripcion": "TORNILLOS FIX 4 X 20 (CAJA X 200)",
+        "marca_id": 3,
+        "precioCosto": 13.33,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 200,
+        "categoria_id": 1,
+        "codigo": 4824,
+        "descripcion": "TORNILLOS FIX 4 X 25 (CAJA X 200)",
+        "marca_id": 3,
+        "precioCosto": 15.14,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 200,
+        "categoria_id": 1,
+        "codigo": 4825,
+        "descripcion": "TORNILLOS FIX 4 X 30 (CAJA X 200)",
+        "marca_id": 3,
+        "precioCosto": 17.11,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 200,
+        "categoria_id": 1,
+        "codigo": 4826,
+        "descripcion": "TORNILLOS FIX 4 X 35 (CAJA X 200)",
+        "marca_id": 3,
+        "precioCosto": 19.12,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 200,
+        "categoria_id": 1,
+        "codigo": 4827,
+        "descripcion": "TORNILLOS FIX 4 X 40 (CAJA X 200)",
+        "marca_id": 3,
+        "precioCosto": 19.9,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 200,
+        "categoria_id": 1,
+        "codigo": 4828,
+        "descripcion": "TORNILLOS FIX 4 X 45 (CAJA X 200)",
+        "marca_id": 3,
+        "precioCosto": 22.06,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 200,
+        "categoria_id": 1,
+        "codigo": 4830,
+        "descripcion": "TORNILLOS FIX 4 X 50 (CAJA X 200)",
+        "marca_id": 3,
+        "precioCosto": 24.69,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 200,
+        "categoria_id": 1,
+        "codigo": 4832,
+        "descripcion": "TORNILLOS FIX 4 X 60 (CAJA X 200)",
+        "marca_id": 3,
+        "precioCosto": 34.06,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 200,
+        "categoria_id": 1,
+        "codigo": 4835,
+        "descripcion": "TORNILLOS FIX 4.5 X 25 (CAJA X 200)",
+        "marca_id": 3,
+        "precioCosto": 17.8,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 200,
+        "categoria_id": 1,
+        "codigo": 4836,
+        "descripcion": "TORNILLOS FIX 4.5 X 30 (CAJA X 200)",
+        "marca_id": 3,
+        "precioCosto": 18.89,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 200,
+        "categoria_id": 1,
+        "codigo": 4837,
+        "descripcion": "TORNILLOS FIX 4.5 X 35 (CAJA X 200)",
+        "marca_id": 3,
+        "precioCosto": 21.47,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 200,
+        "categoria_id": 1,
+        "codigo": 4838,
+        "descripcion": "TORNILLOS FIX 4.5 X 40 (CAJA X 200)",
+        "marca_id": 3,
+        "precioCosto": 24.04,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 200,
+        "categoria_id": 1,
+        "codigo": 4839,
+        "descripcion": "TORNILLOS FIX 4.5 X 45 (CAJA X 200)",
+        "marca_id": 3,
+        "precioCosto": 27.65,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 200,
+        "categoria_id": 1,
+        "codigo": 4840,
+        "descripcion": "TORNILLOS FIX 4.5 X 50 (CAJA X 200)",
+        "marca_id": 3,
+        "precioCosto": 33.4,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 200,
+        "categoria_id": 1,
+        "codigo": 4842,
+        "descripcion": "TORNILLOS FIX 4.5 X 60 (CAJA X 200)",
+        "marca_id": 3,
+        "precioCosto": 39.24,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 200,
+        "categoria_id": 1,
+        "codigo": 4846,
+        "descripcion": "TORNILLOS FIX 5 X 30 (CAJA X 200)",
+        "marca_id": 3,
+        "precioCosto": 27.68,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 200,
+        "categoria_id": 1,
+        "codigo": 4847,
+        "descripcion": "TORNILLOS FIX 5 X 35 (CAJA X 200)",
+        "marca_id": 3,
+        "precioCosto": 29.32,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 200,
+        "categoria_id": 1,
+        "codigo": 4848,
+        "descripcion": "TORNILLOS FIX 5 X 40 (CAJA X 200)",
+        "marca_id": 3,
+        "precioCosto": 31.35,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 200,
+        "categoria_id": 1,
+        "codigo": 4849,
+        "descripcion": "TORNILLOS FIX 5 X 45 (CAJA X 200)",
+        "marca_id": 3,
+        "precioCosto": 35.48,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 200,
+        "categoria_id": 1,
+        "codigo": 4850,
+        "descripcion": "TORNILLOS FIX 5 X 50 (CAJA X 200)",
+        "marca_id": 3,
+        "precioCosto": 36.74,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 200,
+        "categoria_id": 1,
+        "codigo": 4851,
+        "descripcion": "TORNILLOS FIX 5 X 60 (CAJA X 200)",
+        "marca_id": 3,
+        "precioCosto": 41.72,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 200,
+        "categoria_id": 1,
+        "codigo": 4852,
+        "descripcion": "TORNILLOS FIX 5 X 70 (CAJA X 200)",
+        "marca_id": 3,
+        "precioCosto": 58.69,
+        "precioPublico": 0,
+        "utilidad_id": 2
+    }
+]
