@@ -1,0 +1,822 @@
+[
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO AUTOPERFORANTE C/WAFER P/AGUJA 8Xl/2",
+        "precioCosto": "17,05"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO AUTOPERFORANTE C/WAFER P/AGUJA 8Xl",
+        "precioCosto": "28,78"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 3-0.5X4 PH",
+        "precioCosto": "12,20"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 3-0.5X5 PH",
+        "precioCosto": "13,19"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 3-0.5X6 PH",
+        "precioCosto": "14,18"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 3-0.5Xl 0 PH",
+        "precioCosto": "18,12"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 3-0.5Xl 5 PH",
+        "precioCosto": "22,43"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 3-0.5Xl 8 PH",
+        "precioCosto": "24,67"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 3-0.5X20 PH",
+        "precioCosto": "28,04"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 3-0.5X25 PH",
+        "precioCosto": "28,58"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 3-0.5X30 PH",
+        "precioCosto": "32,85"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 4-0.7X5 PH",
+        "precioCosto": "19,44"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 4-0.7X6 PH",
+        "precioCosto": "20,64"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 4-0.7X8 PH",
+        "precioCosto": "22,88"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 4-0.7Xl 0 PH",
+        "precioCosto": "25,27"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 4-0.7Xl 2 PH",
+        "precioCosto": "27,51"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 4-0.7Xl 8 PH",
+        "precioCosto": "32,15"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 4-0.7X20 PH",
+        "precioCosto": "36,78"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 4-0.7X30 PH",
+        "precioCosto": "48,30"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 4-0.7X35 PH",
+        "precioCosto": "354,13"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 4-0.7X40 PH",
+        "precioCosto": "59,96"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 4-0.7X45 PH",
+        "precioCosto": "366,09"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 4-0.7X50 PH",
+        "precioCosto": "72,07"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 4-0.7X55 PH",
+        "precioCosto": "78,05"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 4-0.7X60 PH",
+        "precioCosto": "384,03"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 4-0.7X65 PH",
+        "precioCosto": "90,02"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 4-0.7X70 PH",
+        "precioCosto": "399,00"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 5-0.8x8 PH",
+        "precioCosto": "28,82"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 5-0.8Xl 0 PH",
+        "precioCosto": "31,51"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 5-0.8Xl 2 PH",
+        "precioCosto": "34,32"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 5-0.8X15PH",
+        "precioCosto": "37,12"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 5-0.8X18PH",
+        "precioCosto": "39,92"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 5-0.8X2OPH",
+        "precioCosto": "45,42"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 5-0.8X25PH",
+        "precioCosto": "52,37"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 5-0.8X30PH",
+        "precioCosto": "59,33"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 5-0.8X35PH",
+        "precioCosto": "66,28"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 5-0.8X40PH",
+        "precioCosto": "73,12"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 5-0.8X45PH",
+        "precioCosto": "80,07"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 5-0.8X50PH",
+        "precioCosto": "87,03"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 5-0.8X55PH",
+        "precioCosto": "93,98"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 5-0.8X60PH",
+        "precioCosto": "100,93"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 5-0.8X65PH",
+        "precioCosto": "107,88"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 5-0.8X7OPH",
+        "precioCosto": "114,83"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 6-1X10PH",
+        "precioCosto": "49,40"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 6-1X12PH",
+        "precioCosto": "53,07"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 6-1X15PH",
+        "precioCosto": "56,73"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 6-1X18PH",
+        "precioCosto": "60,71"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 6-1X30PH",
+        "precioCosto": "86,24"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 6-1X35PH",
+        "precioCosto": "95,46"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 6-1X40PH",
+        "precioCosto": "104,67"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 6-1X45PH",
+        "precioCosto": "114,09"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 6-1X50PH",
+        "precioCosto": "123,51"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 6-1X55PH",
+        "precioCosto": "131,88"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 6-1X60PH",
+        "precioCosto": "141,30"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 6-1X65PH",
+        "precioCosto": "150,72"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 6-1X70PH",
+        "precioCosto": "160,14"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 8-1.25X18PH",
+        "precioCosto": "112,15"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 8-1.25X35PH",
+        "precioCosto": "161,49"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 8-1.25X55PH",
+        "precioCosto": "218,91"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 8-1.25X65PH",
+        "precioCosto": "247,62"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 8-1.25X70 PH",
+        "precioCosto": "262,87"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 3-0.5X4 CAB FRESADA",
+        "precioCosto": "12,20"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 3-0.5X5 CAB FRESADÅ",
+        "precioCosto": "13,19"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 3-0.5X6 CAB FRESADA",
+        "precioCosto": "14,18"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 3-0.5X8 CAB FRESADA",
+        "precioCosto": "16,15"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 3-0.5XI 2 CAB FRESADA",
+        "precioCosto": "20,10"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 3-0.5XI 5 CAB FRESADA",
+        "precioCosto": "22,43"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 3-0.5XI 8 CAB FRESADA",
+        "precioCosto": "24,67"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 3-0.5X20 CAB FRESADA",
+        "precioCosto": "28,04"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 3-0.5X25 CAB FRESADA",
+        "precioCosto": "28,58"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 3-0.5X30 CAB FRESADA",
+        "precioCosto": "32,85"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 4-0.7X5 CAB FRESADA",
+        "precioCosto": "19,44"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 4-0.7X8 CAB FRESADÅ",
+        "precioCosto": "22,88"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 4-0.7XI 0 CAB FRESADA",
+        "precioCosto": "25,27"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 4-0.7XI 2 CAB FRESADA",
+        "precioCosto": "27,51"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 4-0.7XI 5 CAB FRESADA",
+        "precioCosto": "29,91"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 4-0.7XI 8 CAB FRESADA",
+        "precioCosto": "32,15"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 4-0.7X20 CAB FRESADA",
+        "precioCosto": "36,78"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 4-0.7X30 CAB FRESADA",
+        "precioCosto": "48,30"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 4-0.7X35 CAB FRESADA",
+        "precioCosto": "54,13"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 4-0.7X45 CAB FRESADA",
+        "precioCosto": "66,09"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 4-0.7X50 CAB FRESADA",
+        "precioCosto": "72,07"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 4-0.7X55 CAB FRESADA",
+        "precioCosto": "78,05"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 4-0.7X6O CAB FRESADA",
+        "precioCosto": "84,03"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 4-0.7X65 CAB FRESADA",
+        "precioCosto": "90,02"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 4-0.7X70 CAB FRESADA",
+        "precioCosto": "96,00"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 5-0.8X8 CAB FRESADA",
+        "precioCosto": "28,82"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 5-0.8XI 2 CAB FRESADA",
+        "precioCosto": "34,32"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 5-0.8XI 8 CAB FRESADA",
+        "precioCosto": "39,92"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 5-0.8X25 CAB FRESADA",
+        "precioCosto": "52,37"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 5-0.8X30 CAB FRESADA",
+        "precioCosto": "59,33"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 5-0.8X35 CAB FRESADA",
+        "precioCosto": "66,28"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 5-0.8X4O CAB FRESADA",
+        "precioCosto": "73,12"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 5-0.8X45 CAB FRESADA",
+        "precioCosto": "80,07"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 5-0.8X50 CAB FRESADA",
+        "precioCosto": "87,03"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 5-0.8X65 CAB FRESADA",
+        "precioCosto": "107,88"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 6-1XI2 CAB FRESADA",
+        "precioCosto": "53,07"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 6-1XI5 CAB FRESADA",
+        "precioCosto": "56,73"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 6-1XI8 CAB FRESADA",
+        "precioCosto": "60,71"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 6-1X30 CAB FRESADA",
+        "precioCosto": "86,24"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 6-1X35 CAB FRESADA",
+        "precioCosto": "95,46"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 6-1X40 CAB FRESADA",
+        "precioCosto": "104,67"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 6-1X45 CAB FRESADA",
+        "precioCosto": "114,09"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 6-1X50 CAB FRESADA",
+        "precioCosto": "123,51"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 6-1X55 CAB FRESADA",
+        "precioCosto": "131,88"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 6-1X60 CAB FRESADA",
+        "precioCosto": "141,30"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 6-1X65 CAB FRESADA",
+        "precioCosto": "150,72"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLO METRICO 6-1X70 CAB FRESADA",
+        "precioCosto": "160,14"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLOS P/METALES C/TANQUE 1/8XI/4",
+        "precioCosto": "9,51"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLOS P/METALES C/TANQUE I/8X5/I6",
+        "precioCosto": "10,11"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLOS P/METALES C/TANQUE I/8X3/8",
+        "precioCosto": "10,52"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLOS P/METALES C/TANQUE I/8XI/2",
+        "precioCosto": "12,13"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLOS P/METALES C/TANQUE 1/8X5/8",
+        "precioCosto": "12,52"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLOS P/METALES C/TANQUE 1/8X3/4",
+        "precioCosto": "13,12"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLOS P/METALES C/TANQUE I/8X7/8",
+        "precioCosto": "14,07"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLOS P/METALES C/TANQUE 1/8XI",
+        "precioCosto": "15,18"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLOS P/METALES C/TANQUE I/8XII/4",
+        "precioCosto": "20,86"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLOS P/METALES C/TANQUE I/8XI3/4",
+        "precioCosto": "28,20"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLOS P/METALES C/TANQUE 1/8X2",
+        "precioCosto": "31,54"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLOS P/METALES C/TANQUE 5/32X1/2",
+        "precioCosto": "19,45"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLOS P/METALES C/TANQUE 5/32X5/8",
+        "precioCosto": "20,59"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLOS P/METALES C/TANQUE 5/32X3/4",
+        "precioCosto": "24,02"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLOS P/METALES C/TANQUE 5/32X7/8",
+        "precioCosto": "28,60"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLOS P/METALES C/TANQUE 5/32Xl",
+        "precioCosto": "30,88"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLOS P/METALES C/TANQUE 5/32Xll/4",
+        "precioCosto": "35,46"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLOS P/METALES C/TANQUE 5/32Xl1/2",
+        "precioCosto": "38,90"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLOS P/METALES C/TANQUE 5/32Xl3/4",
+        "precioCosto": "44,61"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLOS P/METALES C/TANQUE 5/32X2",
+        "precioCosto": "49,19"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLOS P/METALES C/TANQUE 3/l6Xl/4",
+        "precioCosto": "18,63"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLOS P/METALES C/TANQUE 3/l6X5/l6",
+        "precioCosto": "20,59"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLOS P/METALES C/TANQUE 3/l6X3/8",
+        "precioCosto": "21,57"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLOS P/METALES C/TANQUE 3/l6Xl/2",
+        "precioCosto": "24,51"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLOS P/METALES C/TANQUE 3/l6X5/8",
+        "precioCosto": "26,47"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLOS P/METALES C/TANQUE 3/l6X3/4",
+        "precioCosto": "30,40"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLOS P/METALES C/TANQUE 3/l6X7/8",
+        "precioCosto": "32,36"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLOS P/METALES C/TANQUE 3/l6Xl",
+        "precioCosto": "37,26"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLOS P/METALES C/TANQUE 3/l6Xl1/4",
+        "precioCosto": "40,20"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLOS P/METALES C/TANQUE 3/l6Xl1/2",
+        "precioCosto": "49,02"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLOS P/METALES C/TANQUE 3/l6Xl3/4",
+        "precioCosto": "53,93"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLOS P/METALES C/TANQUE 3/l6X2",
+        "precioCosto": "59,81"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLOS P/METALES C/TANQUE 3/l6X21/2",
+        "precioCosto": "70,60"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLOS P/METALES C/TANQUE l/4X3/8",
+        "precioCosto": "47,06"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLOS P/METALES C/TANQUE l/4Xl/2",
+        "precioCosto": "52,95"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLOS P/METALES C/TANQUE l/4X5/8",
+        "precioCosto": "56,87"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLOS P/METALES C/TANQUE l/4X3/4",
+        "precioCosto": "62,75"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLOS P/METALES C/TANQUE l/4X7/8",
+        "precioCosto": "67,65"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLOS P/METALES C/TANQUE l/4Xl",
+        "precioCosto": "76,48"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLOS P/METALES C/TANQUE l/4Xl1/4",
+        "precioCosto": "85,30"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLOS P/METALES C/TANQUE l/4Xl1/2",
+        "precioCosto": "97,07"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLOS P/METALES C/TANQUE l/4Xl3/4",
+        "precioCosto": "106,88"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLOS P/METALES C/TANQUE I /4X2",
+        "precioCosto": "111,78"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLOS P/METALES C/TANQUE 1/4X21/2",
+        "precioCosto": "142,17"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLOS P/METALES C/TANQUE I/4X3",
+        "precioCosto": "167,67"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLOS P/METALES C/TANQUE 5/I6XI/2",
+        "precioCosto": "71,02"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLOS P/METALES C/TANQUE 5/16X5/8",
+        "precioCosto": "71,89"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLOS P/METALES C/TANQUE 5/16X3/4",
+        "precioCosto": "89,21"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLOS P/METALES C/TANQUE 5/l6X7/8",
+        "precioCosto": "97,01"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLOS P/METALES C/TAN0UE 5/16X1",
+        "precioCosto": "106,54"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLOS P/METALES C/TANQUE 5/16X1l/4",
+        "precioCosto": "113,46"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLOS P/METALES C/TANQUE 5/I6XI I/2",
+        "precioCosto": "133,39"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLOS P/METALES C/TANQUE 5/I6XI 3/4",
+        "precioCosto": "151,57"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLOS P/METALES C/TANQUE 5/16X2",
+        "precioCosto": "162,83"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLOS P/METALES C/TANQUE 5/I6X2I/2",
+        "precioCosto": "198,35"
+    },
+    {
+        "cantidad": 200,
+        "descripcion": "TORNILLOS P/METALES C/TANQUE 5/I6X3",
+        "precioCosto": "227,79"
+    }
+]
