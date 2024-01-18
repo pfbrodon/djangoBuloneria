@@ -1,0 +1,632 @@
+[
+    {
+        "cantidad": 200,
+        "categoria_id": 1,
+        "codigo": 2505035,
+        "descripcion": "TORNILLO 8G MM MA 5 X 35",
+        "marca_id": 1,
+        "precioCosto": "23.31",
+        "precioPublico": "0",
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 350,
+        "categoria_id": 1,
+        "codigo": 2505040,
+        "descripcion": "TORNILLO 8G MM MA 5 X 40",
+        "marca_id": 1,
+        "precioCosto": "24.22",
+        "precioPublico": "0",
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 200,
+        "categoria_id": 1,
+        "codigo": 2505045,
+        "descripcion": "TORNILLO 8G MM MA 5 X 45",
+        "marca_id": 1,
+        "precioCosto": "26.88",
+        "precioPublico": "0",
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 270,
+        "categoria_id": 1,
+        "codigo": 2506025,
+        "descripcion": "TORNILLO 8G MM MA 6 X 25",
+        "marca_id": 1,
+        "precioCosto": "23.59",
+        "precioPublico": "0",
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 220,
+        "categoria_id": 1,
+        "codigo": 2506030,
+        "descripcion": "TORNILLO 8G MM MA 6 X 30",
+        "marca_id": 1,
+        "precioCosto": "26.39",
+        "precioPublico": "0",
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 250,
+        "categoria_id": 1,
+        "codigo": 2506035,
+        "descripcion": "TORNILLO 8G MM MA 6 X 35",
+        "marca_id": 1,
+        "precioCosto": "27.93",
+        "precioPublico": "0",
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 250,
+        "categoria_id": 1,
+        "codigo": 2506040,
+        "descripcion": "TORNILLO 8G MM MA 6 X 40",
+        "marca_id": 1,
+        "precioCosto": "30.1",
+        "precioPublico": "0",
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 200,
+        "categoria_id": 1,
+        "codigo": 2506045,
+        "descripcion": "TORNILLO 8G MM MA 6 X 45",
+        "marca_id": 1,
+        "precioCosto": "32.62",
+        "precioPublico": "0",
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 300,
+        "categoria_id": 1,
+        "codigo": 2506050,
+        "descripcion": "TORNILLO 8G MM MA 6 X 50",
+        "marca_id": 1,
+        "precioCosto": "35.14",
+        "precioPublico": "0",
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 150,
+        "categoria_id": 1,
+        "codigo": 2506055,
+        "descripcion": "TORNILLO 8G MM MA 6 X 55",
+        "marca_id": 1,
+        "precioCosto": "39.83",
+        "precioPublico": "0",
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 120,
+        "categoria_id": 1,
+        "codigo": 2506060,
+        "descripcion": "TORNILLO 8G MM MA 6 X 60",
+        "marca_id": 1,
+        "precioCosto": "42.77",
+        "precioPublico": "0",
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 200,
+        "categoria_id": 1,
+        "codigo": 2506070,
+        "descripcion": "TORNILLO 8G MM MA 6 X 70",
+        "marca_id": 1,
+        "precioCosto": "52.57",
+        "precioPublico": "0",
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 250,
+        "categoria_id": 1,
+        "codigo": 2508015,
+        "descripcion": "TORNILLO 8G MM MA 8 X 15",
+        "marca_id": 1,
+        "precioCosto": "35.14",
+        "precioPublico": "0",
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 300,
+        "categoria_id": 1,
+        "codigo": 2508020,
+        "descripcion": "TORNILLO 8G MM MA 8 X 20",
+        "marca_id": 1,
+        "precioCosto": "37.45",
+        "precioPublico": "0",
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 400,
+        "categoria_id": 1,
+        "codigo": 2508025,
+        "descripcion": "TORNILLO 8G MM MA 8 X 25",
+        "marca_id": 1,
+        "precioCosto": "41.02",
+        "precioPublico": "0",
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 150,
+        "categoria_id": 1,
+        "codigo": 2508030,
+        "descripcion": "TORNILLO 8G MM MA 8 X 30",
+        "marca_id": 1,
+        "precioCosto": "44.45",
+        "precioPublico": "0",
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 300,
+        "categoria_id": 1,
+        "codigo": 2508035,
+        "descripcion": "TORNILLO 8G MM MA 8 X 35",
+        "marca_id": 1,
+        "precioCosto": "49.56",
+        "precioPublico": "0",
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 250,
+        "categoria_id": 1,
+        "codigo": 2508040,
+        "descripcion": "TORNILLO 8G MM MA 8 X 40",
+        "marca_id": 1,
+        "precioCosto": "54.11",
+        "precioPublico": "0",
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 200,
+        "categoria_id": 1,
+        "codigo": 2508050,
+        "descripcion": "TORNILLO 8G MM MA 8 X 50",
+        "marca_id": 1,
+        "precioCosto": "63",
+        "precioPublico": "0",
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 150,
+        "categoria_id": 1,
+        "codigo": 2508080,
+        "descripcion": "TORNILLO 8G MM MA 8 X 80",
+        "marca_id": 1,
+        "precioCosto": "97.51",
+        "precioPublico": "0",
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 200,
+        "categoria_id": 1,
+        "codigo": 2510020,
+        "descripcion": "TORNILLO 8G MM MA 10 X 20",
+        "marca_id": 1,
+        "precioCosto": "64.12",
+        "precioPublico": "0",
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 100,
+        "categoria_id": 1,
+        "codigo": 2510030,
+        "descripcion": "TORNILLO 8G MM MA 10 X 30",
+        "marca_id": 1,
+        "precioCosto": "75.39",
+        "precioPublico": "0",
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 150,
+        "categoria_id": 1,
+        "codigo": 2510040,
+        "descripcion": "TORNILLO 8G MM MA 10 X 40",
+        "marca_id": 1,
+        "precioCosto": "90.58",
+        "precioPublico": "0",
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 125,
+        "categoria_id": 1,
+        "codigo": 2510050,
+        "descripcion": "TORNILLO 8G MM MA 10 X 50",
+        "marca_id": 1,
+        "precioCosto": "106.75",
+        "precioPublico": "0",
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 100,
+        "categoria_id": 1,
+        "codigo": 2510060,
+        "descripcion": "TORNILLO 8G MM MA 10 X 60",
+        "marca_id": 1,
+        "precioCosto": "118.86",
+        "precioPublico": "0",
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 60,
+        "categoria_id": 1,
+        "codigo": 2510080,
+        "descripcion": "TORNILLO 8G MM MA 10 X 80",
+        "marca_id": 1,
+        "precioCosto": "160.83",
+        "precioPublico": "0",
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 250,
+        "categoria_id": 1,
+        "codigo": 608006,
+        "descripcion": "TUERCA AUTOFR. MA 6 MM C",
+        "marca_id": 1,
+        "precioCosto": "10.12",
+        "precioPublico": "0",
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 250,
+        "categoria_id": 1,
+        "codigo": 608008,
+        "descripcion": "TUERCA AUTOFR. MA 8 MM C",
+        "marca_id": 1,
+        "precioCosto": "19.89",
+        "precioPublico": "0",
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 1000,
+        "categoria_id": 1,
+        "codigo": 607005,
+        "descripcion": "TUERCA PUL. MA CLASE 6 ZINC  5 X 0.8",
+        "marca_id": 1,
+        "precioCosto": "6.64",
+        "precioPublico": "0",
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 1000,
+        "categoria_id": 1,
+        "codigo": 607006,
+        "descripcion": "TUERCA PUL. MA CLASE 6 ZINC  6 X 1",
+        "marca_id": 1,
+        "precioCosto": "7.28",
+        "precioPublico": "0",
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 500,
+        "categoria_id": 1,
+        "codigo": 607008,
+        "descripcion": "TUERCA PUL. MA CLASE 6 ZINC  8 X 1.25",
+        "marca_id": 1,
+        "precioCosto": "14.55",
+        "precioPublico": "0",
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 300,
+        "categoria_id": 1,
+        "codigo": 607010,
+        "descripcion": "TUERCA PUL. MA CLASE 6 ZINC  10 X 1.5",
+        "marca_id": 1,
+        "precioCosto": "32.01",
+        "precioPublico": "0",
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 500,
+        "categoria_id": 1,
+        "codigo": 1806016,
+        "descripcion": "BULON PULIDO UNC 1/4 X 5/8",
+        "marca_id": 1,
+        "precioCosto": "14.71",
+        "precioPublico": "0",
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 500,
+        "categoria_id": 1,
+        "codigo": 1806020,
+        "descripcion": "BUL.PUL.UNC.ZINC. 1/4 X 3/4 ",
+        "marca_id": 1,
+        "precioCosto": "19.69",
+        "precioPublico": "0",
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 300,
+        "categoria_id": 1,
+        "codigo": 1806025,
+        "descripcion": "BULON PULIDO UNC 1/4 X 1 ",
+        "marca_id": 1,
+        "precioCosto": "17.64",
+        "precioPublico": "0",
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 500,
+        "categoria_id": 1,
+        "codigo": 1806032,
+        "descripcion": "BULON PULIDO UNC 1/4 X 1 1/4 ",
+        "marca_id": 1,
+        "precioCosto": "21.15",
+        "precioPublico": "0",
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 200,
+        "categoria_id": 1,
+        "codigo": 1806038,
+        "descripcion": "BULON PULIDO UNC 1/4 X 1 1/2 ",
+        "marca_id": 1,
+        "precioCosto": "21.96",
+        "precioPublico": "0",
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 200,
+        "categoria_id": 1,
+        "codigo": 1806051,
+        "descripcion": "BUL.PUL.UNC.ZINC. 1/4 X 2 ",
+        "marca_id": 1,
+        "precioCosto": "29.5",
+        "precioPublico": "0",
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 100,
+        "categoria_id": 1,
+        "codigo": 1806076,
+        "descripcion": "BULON PULIDO UNC 1/4 X 3 ",
+        "marca_id": 1,
+        "precioCosto": "41.8",
+        "precioPublico": "0",
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 200,
+        "categoria_id": 1,
+        "codigo": 1809016,
+        "descripcion": "BULON PULIDO UNC 3/8 X 5/8  ",
+        "marca_id": 1,
+        "precioCosto": "28.33",
+        "precioPublico": "0",
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 200,
+        "categoria_id": 1,
+        "codigo": 1809019,
+        "descripcion": "BULON PULIDO UNC 3/8 X 3/4 ",
+        "marca_id": 1,
+        "precioCosto": "30.16",
+        "precioPublico": "0",
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 300,
+        "categoria_id": 1,
+        "codigo": 1809025,
+        "descripcion": "BULON PULIDO UNC 3/8 X 1",
+        "marca_id": 1,
+        "precioCosto": "35.43",
+        "precioPublico": "0",
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 300,
+        "categoria_id": 1,
+        "codigo": 1809032,
+        "descripcion": "BULON PULIDO UNC 3/8 X 1 1/4 ",
+        "marca_id": 1,
+        "precioCosto": "38.72",
+        "precioPublico": "0",
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 200,
+        "categoria_id": 1,
+        "codigo": 1809038,
+        "descripcion": "BULON PULIDO UNC 3/8 X 1 1/2 ",
+        "marca_id": 1,
+        "precioCosto": "43.41",
+        "precioPublico": "0",
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 150,
+        "categoria_id": 1,
+        "codigo": 1809044,
+        "descripcion": "BULON PULIDO UNC 3/8 X 1 3/4  ",
+        "marca_id": 1,
+        "precioCosto": "50",
+        "precioPublico": "0",
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 150,
+        "categoria_id": 1,
+        "codigo": 1809050,
+        "descripcion": "BULON PULIDO UNC 3/8 X 2 ",
+        "marca_id": 1,
+        "precioCosto": "53.29",
+        "precioPublico": "0",
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 100,
+        "categoria_id": 1,
+        "codigo": 1809063,
+        "descripcion": "BULON PULIDO UNC 3/8 X 2 1/2 ",
+        "marca_id": 1,
+        "precioCosto": "63.98",
+        "precioPublico": "0",
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 100,
+        "categoria_id": 1,
+        "codigo": 1809076,
+        "descripcion": "BULON PULIDO UNC 3/8 X 3 ",
+        "marca_id": 1,
+        "precioCosto": "72.47",
+        "precioPublico": "0",
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 100,
+        "categoria_id": 1,
+        "codigo": 1809101,
+        "descripcion": "BUL.PUL.UNC.ZINC. 3/8 X 4",
+        "marca_id": 1,
+        "precioCosto": "117.17",
+        "precioPublico": "0",
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 300,
+        "categoria_id": 1,
+        "codigo": 1808016,
+        "descripcion": "BULON PULIDO UNC 5/16 X 5/8 ",
+        "marca_id": 1,
+        "precioCosto": "22.33",
+        "precioPublico": "0",
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 400,
+        "categoria_id": 1,
+        "codigo": 1808026,
+        "descripcion": "BUL.PUL.UNC.ZINC. 5/16 X 1 ",
+        "marca_id": 1,
+        "precioCosto": "30.38",
+        "precioPublico": "0",
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 300,
+        "categoria_id": 1,
+        "codigo": 1808032,
+        "descripcion": "BULON PULIDO UNC 5/16 X 1 1/4 ",
+        "marca_id": 1,
+        "precioCosto": "29.57",
+        "precioPublico": "0",
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 300,
+        "categoria_id": 1,
+        "codigo": 1808038,
+        "descripcion": "BULON PULIDO UNC 5/16 X 1 1/2 ",
+        "marca_id": 1,
+        "precioCosto": "31.77",
+        "precioPublico": "0",
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 250,
+        "categoria_id": 1,
+        "codigo": 1808044,
+        "descripcion": "BULON PULIDO UNC 5/16 X 1 3/4 ",
+        "marca_id": 1,
+        "precioCosto": "34.84",
+        "precioPublico": "0",
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 200,
+        "categoria_id": 1,
+        "codigo": 1808050,
+        "descripcion": "BULON PULIDO UNC 5/16 X 2 ",
+        "marca_id": 1,
+        "precioCosto": "37.7",
+        "precioPublico": "0",
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 200,
+        "categoria_id": 1,
+        "codigo": 1808064,
+        "descripcion": "BUL.PUL.UNC.ZINC. 5/16 X 2 1/2 ",
+        "marca_id": 1,
+        "precioCosto": "52.94",
+        "precioPublico": "0",
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 100,
+        "categoria_id": 1,
+        "codigo": 1808077,
+        "descripcion": "BUL.PUL.UNC.ZINC. 5/16 X 3 ",
+        "marca_id": 1,
+        "precioCosto": "61.27",
+        "precioPublico": "0",
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 100,
+        "categoria_id": 1,
+        "codigo": 1808101,
+        "descripcion": "BUL.PUL.UNC.ZINC. 5/16 X 4 ",
+        "marca_id": 1,
+        "precioCosto": "95.7",
+        "precioPublico": "0",
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 1000,
+        "categoria_id": 1,
+        "codigo": 704006,
+        "descripcion": "TUERCA EST. AC PUL UNC 1/4  ",
+        "marca_id": 1,
+        "precioCosto": "8.78",
+        "precioPublico": "0",
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 1000,
+        "categoria_id": 1,
+        "codigo": 704008,
+        "descripcion": "TUERCA EST. AC PUL UNC 5/16  ",
+        "marca_id": 1,
+        "precioCosto": "13.07",
+        "precioPublico": "0",
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 800,
+        "categoria_id": 1,
+        "codigo": 704009,
+        "descripcion": "TUERCA EST. AC PUL UNC 3/8   ",
+        "marca_id": 1,
+        "precioCosto": "18.43",
+        "precioPublico": "0",
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 500,
+        "categoria_id": 1,
+        "codigo": 602009,
+        "descripcion": "TUERCA PUL. UNC ZINCADA 3/8   ",
+        "marca_id": 1,
+        "precioCosto": "20.96",
+        "precioPublico": "0",
+        "utilidad_id": 2
+    },
+    {
+        "cantidad": 1000,
+        "categoria_id": 1,
+        "codigo": 602008,
+        "descripcion": "TUERCA PUL. UNC ZINCADA 5/16   ",
+        "marca_id": 1,
+        "precioCosto": "15.4",
+        "precioPublico": "0",
+        "utilidad_id": 2
+    }
+]
