@@ -59,22 +59,6 @@ def signin(request):
         else: 
             login(request, user)
             return redirect('stock')
-@login_required
-def stock(request):
-    #form = ProductoBusqueda()
-    if request.method=='GET':
-        productos = Producto.objects.all()
-        for producto in productos:
-            producto.precioPublico= floatformat(producto.precioCosto*producto.utilidad.utilValor,2)
-        return render(request, 'stock.html', {
-            #'form': form,
-            'productos': productos
-            })
-        
-        
-        
-        
-        
         
 @login_required 
 def nuevo(request):
@@ -118,7 +102,20 @@ def actualizar(request, id):
 #def buscar(request):
 #    form = ProductoBusqueda()
 #    return render(request, 'stock.html', {'form': form})
-
+@login_required
+def stock(request):
+    #form = ProductoBusqueda()
+    if request.method=='GET':
+        productos = Producto.objects.all()
+        for producto in productos:
+            producto.precioPublico= floatformat(producto.precioCosto*producto.utilidad.utilValor,2)
+        return render(request, 'stock.html', {
+            #'form': form,
+            'productos': productos
+            })
+#   else:
+        
+        
 def buscar(request):
     form = ProductoBusqueda()
     productos = []
