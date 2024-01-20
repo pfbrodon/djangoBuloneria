@@ -1,11 +1,11 @@
-from django.shortcuts import render, redirect, get_object_or_404
+from django.shortcuts import render, redirect, get_object_or_404, HttpResponse
 from django.contrib.auth.forms import UserCreationForm, AuthenticationForm
 from django.contrib.auth.models import User
 from django.contrib.auth import login, logout, authenticate
 from django.contrib.auth.decorators import login_required
 from django.db import IntegrityError
 from .models import Producto
-from .forms import NuevoForm, ProductoForm
+from .forms import NuevoForm, ProductoForm, ProductoBusqueda
 from django.template.defaultfilters import floatformat
 # Create your views here.
 
@@ -61,12 +61,21 @@ def signin(request):
             return redirect('stock')
 @login_required
 def stock(request):
+    #form = ProductoBusqueda()
     if request.method=='GET':
         productos = Producto.objects.all()
         for producto in productos:
             producto.precioPublico= floatformat(producto.precioCosto*producto.utilidad.utilValor,2)
-        return render(request, 'stock.html', {'productos': productos})
-    
+        return render(request, 'stock.html', {
+            #'form': form,
+            'productos': productos
+            })
+        
+        
+        
+        
+        
+        
 @login_required 
 def nuevo(request):
     if request.method=='GET':
@@ -104,3 +113,20 @@ def actualizar(request, id):
             return redirect('stock')
     else:
         return render(request, 'actualizar.html', {'form': None, 'producto': None})
+    
+
+#def buscar(request):
+#    form = ProductoBusqueda()
+#    return render(request, 'stock.html', {'form': form})
+
+def buscar(request):
+    form = ProductoBusqueda()
+    productos = []
+    if request.method == 'POST':
+            form = ProductoBusqueda(request.POST)
+            print(request.POST)
+            if form.is_valid():
+                descripcion = form.cleaned_data['descripcion']
+                productos = Producto.objects.filter(descripcion__icontains=descripcion)
+
+    return render(request, 'stock.html', {'form': form, 'productos': productos})

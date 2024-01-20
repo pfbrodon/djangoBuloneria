@@ -9,13 +9,15 @@
         <div class="col-md-6">
             <form action="">
                 <!--<button class="btn btn-success" type="submit">BUSCAR</button> <input type="text" name="buscar" id="buscar">-->
-                <div>
+                <div class="input-group mb-3 custom-width">
                     <a class="btn btn-success" href="{% url 'nuevo' %}">NUEVO</a>
-                    <!--<a class="btn btn-secondary" href="{% url 'buscar' %}">BUSCAR</a>-->
+                    <a class="btn btn-secondary" href="{% url 'buscar' %}" id="button-addon1" >BUSCAR</a>
                     <form  method="POST" action="{% url 'buscar' %}">
+                        <!--<button class="btn btn-secondary" type="submit" id="button-addon1">BUSCAR</button>-->
                         {%csrf_token%}
                         {{ form.as_p }}
-                        <button type="submit">Buscar</button>
+                        <!--<button class="btn btn-secondary" type="submit" id="button-addon1">BUSCAR</button>
+                        <input type="text" class="form-control" placeholder="Ingrese el Item a Buscar" aria-label="Example text with button addon" aria-describedby="button-addon1" name="buscar" id="buscar">-->
                     </form>
                 </div>
             </form>

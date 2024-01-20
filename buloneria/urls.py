@@ -28,6 +28,5 @@ urlpatterns = [
     path('stock/nuevo/', views.nuevo, name='nuevo'),
     path('stock/eliminar/<int:id>/', views.eliminar, name='eliminar'),
     path('stock/actualizar/<int:id>/', views.actualizar, name='actualizar'),
-    #path('stock/actualizar/', views.actualizar, name='actualizar'),
-
+    path('buscar/', views.buscar, name='buscar')
 ]
