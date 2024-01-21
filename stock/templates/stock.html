@@ -7,31 +7,27 @@
 <div class="container">
     <div class="row">
         <div class="col-md-6">
-            <form action="">
-                <!--<button class="btn btn-success" type="submit">BUSCAR</button> <input type="text" name="buscar" id="buscar">-->
-                <div>
-                    <a class="btn btn-success" href="{% url 'nuevo' %}">NUEVO</a>
-                    <!--<a class="btn btn-secondary" href="{% url 'buscar' %}">BUSCAR</a>-->
-                    <form  method="POST" action="{% url 'buscar' %}">
-                        {%csrf_token%}
-                        {{ form.as_p }}
-                        <button type="submit">Buscar</button>
-                    </form>
-                </div>
-            </form>
+            <!--<button class="btn btn-success" type="submit">BUSCAR</button> <input type="text" name="buscar" id="buscar">-->
+            <div>
+                <a class="btn btn-success" href="{% url 'nuevo' %}">NUEVO</a>
+                <form method="post" action="{% url 'stock' %}">
+                    {%csrf_token%}
+                    {{ form.as_p }}
+                    <button type="submit" class="btn btn-success" >Buscar</button>
+                </form>
+                <br>
+            </div>
         </div>
         <div class="col-md-6">
-            <form action="" method="POST">
-                <div class="input-group mb-3 custom-width2">
-                    <button class="btn btn-secondary" type="submit" id="button-addon2">FILTRO</button>
-                    <select name="catNombre" id="id_categoria" class="form-select" id="inputGroupSelect03" aria-label="Example select with button addon">
-                        <option selected>Seleccionar la Categoria</option>
-                        {% for catnombre in catnombre %}
-                        <option value=''></option>
-                        {% endfor %}
-                    </select>
-                </div>
-            </form>
+            <div class="input-group mb-3 custom-width2">
+                <button class="btn btn-secondary" type="submit" id="button-addon2">FILTRO</button>
+                <select name="catNombre" id="id_categoria" class="form-select" id="inputGroupSelect03" aria-label="Example select with button addon">
+                    <option selected>Seleccionar la Categoria</option>
+                    {% for catnombre in catnombre %}
+                    <option value=''></option>
+                    {% endfor %}
+                </select>
+            </div>
         </div>
     </div>
     <div class="table-responsive"> 

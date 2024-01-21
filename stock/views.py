@@ -104,26 +104,26 @@ def actualizar(request, id):
 #    return render(request, 'stock.html', {'form': form})
 @login_required
 def stock(request):
-    #form = ProductoBusqueda()
-    if request.method=='GET':
+    form = ProductoBusqueda()
+    if request.method=='POST':
+        print('va el post')
+        form = ProductoBusqueda(request.POST)
+        print(request.POST)
+        if form.is_valid():
+            descripcion = form.cleaned_data['descripcion']
+            productos = Producto.objects.filter(descripcion__icontains=descripcion)
+            return render(request, 'stock.html', {
+                'form': form, 
+                'productos': productos
+                })
+    elif request.method == 'GET': 
+        print('va el GET')
         productos = Producto.objects.all()
         for producto in productos:
             producto.precioPublico= floatformat(producto.precioCosto*producto.utilidad.utilValor,2)
         return render(request, 'stock.html', {
-            #'form': form,
+            'form': form,
             'productos': productos
             })
-#   else:
-        
-        
-def buscar(request):
-    form = ProductoBusqueda()
-    productos = []
-    if request.method == 'POST':
-            form = ProductoBusqueda(request.POST)
-            print(request.POST)
-            if form.is_valid():
-                descripcion = form.cleaned_data['descripcion']
-                productos = Producto.objects.filter(descripcion__icontains=descripcion)
 
-    return render(request, 'stock.html', {'form': form, 'productos': productos})
+        
