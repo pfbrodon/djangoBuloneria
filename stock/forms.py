@@ -19,12 +19,10 @@ class ProductoForm(ModelForm):
     class Meta:
         model= Producto
         fields=('codigo', 'categoria' , 'marca' , 'descripcion' , 'cantidad' , 'utilidad' )
-        
-#class ProductoBusqueda(forms.Form):
-#   nombre = forms.CharField(label='Buscar por nombre', max_length=100)
-    
+            
 class ProductoBusqueda(forms.Form):
     descripcion = forms.CharField(
-        max_length=100,
-        #widget=forms.TextInput(attrs={'class': 'form-control'})
+        max_length=50,
+        label= 'BUSQUEDA:',
+        widget=forms.TextInput(attrs={'class': 'form-control'})
     )

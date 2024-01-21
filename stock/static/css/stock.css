@@ -98,7 +98,7 @@
 
 .btn {
     width: 58px;
-    height: 27px;
+    height: 35px;
     padding: 1px;
     font-size: 10px;
     font-weight: bold;
@@ -106,6 +106,15 @@
     line-height: 22px;
 }
 
+.btn-success{
+    width: 58px;
+    height: 27px;
+    padding: 1px;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 22px;
+}
 
 /* Ancho del botón */
 
@@ -121,14 +130,6 @@
     padding: 2px;
     font-size: 12px;
     text-align: center;
-}
-
-.custom-width {
-    width: 500px;
-}
-
-.custom-width2 {
-    width: 500px;
 }
 
 

@@ -7,6 +7,7 @@ from django.db import IntegrityError
 from .models import Producto
 from .forms import NuevoForm, ProductoForm, ProductoBusqueda
 from django.template.defaultfilters import floatformat
+from django.db.models import Q
 # Create your views here.
 
 def home(request):
@@ -121,18 +122,14 @@ def buscar(request):
         print(request.POST)
         if form.is_valid():
             descripcion = form.cleaned_data['descripcion']
-            print(f'EL VALOR DE DESCRIPCIONES: {descripcion}')
+            print(f'EL VALOR DE DESCRIPCIONES: {descripcion}') #IMPRESION DE AYUDA
             palabrasClave= descripcion.split()
-            print(palabrasClave)
-            for palabra in palabrasClave:
-                print(f'La palabra es:{palabra}')
-            productos = Producto.objects.filter(descripcion__icontains=descripcion)
+            print(palabrasClave)  #IMPRESION DE AYUDA
+            palabrasClave=[Q(descripcion__icontains=palabra) for palabra in palabrasClave]
+            productos = Producto.objects.filter(*palabrasClave)
+            for producto in productos:
+                producto.precioPublico= floatformat(producto.precioCosto*producto.utilidad.utilValor,2)
             return render(request, 'stock.html', {
                 'form': form, 
                 'productos': productos
                 })
-
-# Realizar la consulta utilizando el método filter y el operador &
-#resultados = Producto.objects.filter(descripcion__icontains=palabra1, descripcion__icontains=palabra2)
-
-# Ahora, 'resultados' contendrá todos los productos cuyas descripciones contienen ambas palabras clave.
