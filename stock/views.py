@@ -132,3 +132,7 @@ def buscar(request):
                 'productos': productos
                 })
 
+# Realizar la consulta utilizando el método filter y el operador &
+#resultados = Producto.objects.filter(descripcion__icontains=palabra1, descripcion__icontains=palabra2)
+
+# Ahora, 'resultados' contendrá todos los productos cuyas descripciones contienen ambas palabras clave.
