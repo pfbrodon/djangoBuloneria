@@ -10,7 +10,7 @@
             <!--<button class="btn btn-success" type="submit">BUSCAR</button> <input type="text" name="buscar" id="buscar">-->
             <div>
                 <a class="btn btn-success" href="{% url 'nuevo' %}">NUEVO</a>
-                <form method="post" action="{% url 'stock' %}">
+                <form method="post" action="{% url 'buscar' %}">
                     {%csrf_token%}
                     {{ form.as_p }}
                     <button type="submit" class="btn btn-success" >Buscar</button>

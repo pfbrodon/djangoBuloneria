@@ -105,18 +105,7 @@ def actualizar(request, id):
 @login_required
 def stock(request):
     form = ProductoBusqueda()
-    if request.method=='POST':
-        print('va el post')
-        form = ProductoBusqueda(request.POST)
-        print(request.POST)
-        if form.is_valid():
-            descripcion = form.cleaned_data['descripcion']
-            productos = Producto.objects.filter(descripcion__icontains=descripcion)
-            return render(request, 'stock.html', {
-                'form': form, 
-                'productos': productos
-                })
-    elif request.method == 'GET': 
+    if request.method == 'GET': 
         print('va el GET')
         productos = Producto.objects.all()
         for producto in productos:
@@ -126,4 +115,15 @@ def stock(request):
             'productos': productos
             })
 
-        
+def buscar(request):
+    if request.method=='POST':
+        form=ProductoBusqueda(request.POST)
+        print(request.POST)
+        if form.is_valid():
+            descripcion = form.cleaned_data['descripcion']
+            productos = Producto.objects.filter(descripcion__icontains=descripcion)
+            return render(request, 'stock.html', {
+                'form': form, 
+                'productos': productos
+                })
+
