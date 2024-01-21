@@ -121,6 +121,11 @@ def buscar(request):
         print(request.POST)
         if form.is_valid():
             descripcion = form.cleaned_data['descripcion']
+            print(f'EL VALOR DE DESCRIPCIONES: {descripcion}')
+            palabrasClave= descripcion.split()
+            print(palabrasClave)
+            for palabra in palabrasClave:
+                print(f'La palabra es:{palabra}')
             productos = Producto.objects.filter(descripcion__icontains=descripcion)
             return render(request, 'stock.html', {
                 'form': form, 
