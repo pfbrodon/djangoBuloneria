@@ -7,24 +7,24 @@
 <div class="container">
     <div class="row">
         <div class="col-md-6 d-flex align-items-center" style="background-color: blueviolet; padding: 5px;">
-                <form class="d-flex align-items-center" method="post" action="{% url 'buscar' %}" style="background-color: brown; padding: 5px;" >
+                <form class="d-flex align-items-center" method="post" action="{% url 'buscar' %}" style="padding: 5px;" >
                     {%csrf_token%}
-                    <div class="d-flex align-items-center justify-content-center"style="background-color: aqua; padding: 5px;" >
+                    <div class="d-flex align-items-center justify-content-center"style="padding: 5px;" >
                         {{ form }}
                     </div>
-                    <div style="background-color: bisque; padding: 5px;">
+                    <div style="padding: 5px;">
                         <button type="submit" class="btn btn-success" >BUSCAR</button>
                     </div>
                 </form>
         </div>
         <div class="col-md-6 d-flex align-items-center" style="background-color:aquamarine; padding: 5px; " >
-            <div style="background-color: aliceblue; padding: 5px;">
+            <div style=" padding: 5px;">
                 <a class="btn btn-success" href="{% url 'nuevo' %}">NUEVO</a>
             </div>
         </div>
     </div>
     <div class="row">
-        <div class="col" style="background-color: beige;">
+        <div class="col" style="background-color: beige; padding: 5px;">
             <div class="table-responsive"> 
                 <form action="">
                     {%csrf_token%}

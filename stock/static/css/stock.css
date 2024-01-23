@@ -111,16 +111,20 @@
 }
 
 .btn-success{
-    width: 58px;
-    height: 35px;;
+    background-color: coral;
+    width: 60px;
+    height: 37px;;
     padding: 1px;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: bold;
     text-align: center;
-    line-height: 30px;
+    line-height: 33px;
     display: flex;
     justify-content: center;
     vertical-align: middle;
+    outline-color: dimgrey;
+    outline-style:solid;
+    outline-width: 2px;
 
 }
 
