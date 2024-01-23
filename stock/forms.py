@@ -44,6 +44,6 @@ class ProductoForm(ModelForm):
 class ProductoBusqueda(forms.Form):
     descripcion = forms.CharField(
         max_length=50,
-        label= 'BUSQUEDA:',
-        widget=forms.TextInput(attrs={'class': 'form-control','style': 'width: 400px;','placeholder':'ingrese la busqueda'})
+        label= '',
+        widget=forms.TextInput(attrs={'class': 'form-control','style': 'width: 300px;','placeholder':'ingrese la busqueda'})
     )

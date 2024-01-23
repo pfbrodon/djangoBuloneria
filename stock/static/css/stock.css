@@ -28,10 +28,14 @@
 
 .table {
     font-size: 13px;
-    width: 97%;
+    width: 100%;
     border-collapse: collapse;
     line-height: 27px;
     padding: 2px;
+}
+.table-responsive {
+    text-align: center;
+    align-items: center;
 }
 
 .table td:nth-child(1),
@@ -98,7 +102,7 @@
 
 .btn {
     width: 58px;
-    height: 30px;
+    height: 26px;
     padding: 1px;
     font-size: 10px;
     font-weight: bold;
@@ -108,12 +112,16 @@
 
 .btn-success{
     width: 58px;
-    height: 27px;
+    height: 35px;;
     padding: 1px;
     font-size: 10px;
     font-weight: bold;
     text-align: center;
-    line-height: 22px;
+    line-height: 30px;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+
 }
 
 /* Ancho del botón */
@@ -130,14 +138,6 @@
     padding: 2px;
     font-size: 12px;
     text-align: center;
-}
-
-
-.btn-success {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: auto;
 }
 
 #demo {

@@ -6,61 +6,71 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-md-6">
-                <form method="post" action="{% url 'buscar' %}">
+        <div class="col-md-6 d-flex align-items-center" style="background-color: blueviolet; padding: 5px;">
+                <form class="d-flex align-items-center" method="post" action="{% url 'buscar' %}" style="background-color: brown; padding: 5px;" >
                     {%csrf_token%}
-                    <div>{{ form.as_p }}<button type="submit" class="btn btn-success" >BUSCAR</button></div>
-                    <div></div>
+                    <div class="d-flex align-items-center justify-content-center"style="background-color: aqua; padding: 5px;" >
+                        {{ form }}
+                    </div>
+                    <div style="background-color: bisque; padding: 5px;">
+                        <button type="submit" class="btn btn-success" >BUSCAR</button>
+                    </div>
                 </form>
-                <br>
         </div>
-        <div class="col-md-6">
-            <a class="btn btn-success" href="{% url 'nuevo' %}">NUEVO</a>
+        <div class="col-md-6 d-flex align-items-center" style="background-color:aquamarine; padding: 5px; " >
+            <div style="background-color: aliceblue; padding: 5px;">
+                <a class="btn btn-success" href="{% url 'nuevo' %}">NUEVO</a>
+            </div>
         </div>
     </div>
-    <div class="table-responsive"> 
-        <form action="">
-            {%csrf_token%}
-            <table id="tabla" class="table table-striped table-bordered table-hover">
-                <thead>
-                    <tr class="encabezados">
-                        <th scope="col">ID</th>
-                        <th scope="col">CATEG</th>
-                        <th scope="col">MARCA</th>
-                        <th scope="col">CODIGO</th>
-                        <th scope="col">DESCRIPCION</th>
-                        <th scope="col">CANTIDAD</th>
-                        <th scope="col">P COSTO</th>
-                        <th scope="col">UTLIDAD</th>
-                        <th scope="col">P VENTA</th>
-                        <th scope="col">ACCIONES</th>
-                        <!-- Agrega más columnas según las propiedades de tu modelo Producto -->
-                    </tr>
-                </thead>
-                <tbody>
-                    {% for producto in productos %}
-                        <tr class="contenido">
-                            <td scope="row" class="columNum">{{ producto.id }}</td>
-                            <td class="columCategoria">{{ producto.categoria.catNom }}</td>
-                            <td class="columMarca">{{ producto.marca.marcaNom }}</td>
-                            <td class="columNum">{{ producto.codigo }}</td>
-                            <td class="columDescripcion">{{ producto.descripcion }}</td>
-                            <td class="columNum">{{ producto.cantidad }}</td>
-                            <td class="columMoneda">${{ producto.precioCosto }}</td>
-                            <td class="columUtilidad">{{ producto.utilidad.utilDescripcion}}</td>
-                            <td class="columMoneda">${{ producto.precioPublico}}</td>
-                            <td class="centrarbotones">
-                                <div>   
-                                    <a class="btn btn-primary btn-sm " href="{% url 'actualizar' id=producto.id %}">EDITAR</a>
-                                    <a class="btn btn-danger btn-sm" href="{% url 'eliminar' id=producto.id %}">ELIMINAR</a>
-                                </div>
-                            </td>
-                            <!-- Agrega más celdas según las propiedades de tu modelo Producto -->
-                        </tr>
-                    {% endfor %}
-                </tbody>
-            </table>
-        </form>
+    <div class="row">
+        <div class="col" style="background-color: beige;">
+            <div class="table-responsive"> 
+                <form action="">
+                    {%csrf_token%}
+                    <table id="tabla" class="table table-striped table-bordered table-hover">
+                        <thead>
+                            <tr class="encabezados">
+                                <th scope="col">ID</th>
+                                <th scope="col">CATEG</th>
+                                <th scope="col">MARCA</th>
+                                <th scope="col">CODIGO</th>
+                                <th scope="col">DESCRIPCION</th>
+                                <th scope="col">CANTIDAD</th>
+                                <th scope="col">P COSTO</th>
+                                <th scope="col">UTLIDAD</th>
+                                <th scope="col">P VENTA</th>
+                                <th scope="col">ACCIONES</th>
+                                <!-- Agrega más columnas según las propiedades de tu modelo Producto -->
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for producto in productos %}
+                                <tr class="contenido">
+                                    <td scope="row" class="columNum">{{ producto.id }}</td>
+                                    <td class="columCategoria">{{ producto.categoria.catNom }}</td>
+                                    <td class="columMarca">{{ producto.marca.marcaNom }}</td>
+                                    <td class="columNum">{{ producto.codigo }}</td>
+                                    <td class="columDescripcion">{{ producto.descripcion }}</td>
+                                    <td class="columNum">{{ producto.cantidad }}</td>
+                                    <td class="columMoneda">${{ producto.precioCosto }}</td>
+                                    <td class="columUtilidad">{{ producto.utilidad.utilDescripcion}}</td>
+                                    <td class="columMoneda">${{ producto.precioPublico}}</td>
+                                    <td class="centrarbotones">
+                                        <div>   
+                                            <a class="btn btn-primary btn-sm " href="{% url 'actualizar' id=producto.id %}">EDITAR</a>
+                                            <a class="btn btn-danger btn-sm" href="{% url 'eliminar' id=producto.id %}">ELIMINAR</a>
+                                        </div>
+                                    </td>
+                                    <!-- Agrega más celdas según las propiedades de tu modelo Producto -->
+                                </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </form>
+            </div>
+        
+        </div>
     </div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
