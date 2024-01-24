@@ -133,3 +133,16 @@ def buscar(request):
                 'form': form, 
                 'productos': productos
                 })
+            
+@login_required
+def presupuestar(request):
+    form = ProductoBusqueda()
+    if request.method == 'GET': 
+        print('va el GET')
+        productos = Producto.objects.all()
+        for producto in productos:
+            producto.precioPublico= floatformat(producto.precioCosto*producto.utilidad.utilValor,2)
+        return render(request, 'presupuesto.html', {
+            'form': form,
+            'productos': productos
+            })

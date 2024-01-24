@@ -5,7 +5,7 @@
     <div><h2>ALTA DE PRODUCTO</h2></div>
     <form method="POST" action="/stock/nuevo/">
         {%csrf_token%}
-        {{ form.as_table }}
+        {{ form}}
         <br>
         <button class="btn btn-success">
             GUARDAR
